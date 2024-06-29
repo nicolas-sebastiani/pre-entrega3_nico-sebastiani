@@ -1,0 +1,12 @@
+@media (max-width: 320px) {
+    .soporte {
+        .soporte__title h2{
+            display: none;
+        }
+        .soporte__container div img{
+            padding: 10px;
+            width: 100px;
+            height: auto;
+        }
+    }
+}
