@@ -44,4 +44,25 @@
             }
         }
     }
+    .container-video {
+        height: 42rem;
+        .video-wrapper1 div {
+            width: 200px;
+            height: auto;
+        }
+        .video-wrapper2 {
+            grid-row: 3/5;
+            div {
+                width: 200px;
+                height: auto;
+            }
+        }
+        .video-wrapper3 {
+            grid-row: 5/7;
+            div {
+                width: 200px;
+                height: auto;
+            }
+        }
+    }
 }
