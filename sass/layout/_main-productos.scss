@@ -1,5 +1,5 @@
 .container {
-    @include grid (repeat(12,9rem),repeat(20,6rem),2440px,120rem);
+    @include grid (repeat(12,1fr),repeat(20,6rem),100vw,120rem);
     margin: 0;
     .container__piloto {
         grid-column: 1/13;
