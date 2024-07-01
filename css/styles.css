@@ -936,6 +936,212 @@ body {
     width: 200px;
     height: auto;
   }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(26, 6rem);
+    width: 100vw;
+    height: 160rem;
+    margin: 0;
+  }
+  .container .container__piloto {
+    grid-column: 1/13;
+    grid-row: 2/6;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  .container .container__piloto .piloto-img {
+    padding-right: 60px;
+    width: 600px;
+    height: auto;
+  }
+  .container .container__piloto .piloto-img img {
+    border-radius: 50%;
+  }
+  .container .container__piloto .piloto-img img:hover {
+    transform: scale(1.1);
+    transition: transform 200ms linear;
+  }
+  .container .container__piloto .piloto-desc {
+    width: 90%;
+  }
+  .container .container__piloto .piloto-desc h2 {
+    font-family: "jura", sans-serif;
+    font-size: 2.25rem;
+  }
+  .container .container__piloto .piloto-desc p {
+    font-family: "jura", sans-serif;
+    font-size: 1rem;
+  }
+  .container .container__piloto .piloto-desc p a {
+    color: #323331;
+  }
+  .container .container__terran {
+    grid-column: 1/13;
+    grid-row: 6/10;
+    display: flex;
+    justify-content: space-around;
+  }
+  .container .container__terran .terran-img {
+    padding-right: 30px;
+    width: 600px;
+    height: auto;
+  }
+  .container .container__terran .terran-img img {
+    border-radius: 50%;
+  }
+  .container .container__terran .terran-img img:hover {
+    transform: scale(1.1);
+    transition: transform 200ms linear;
+  }
+  .container .container__terran .terran-desc {
+    width: 90%;
+  }
+  .container .container__terran .terran-desc h2 {
+    font-family: "jura", sans-serif;
+    font-size: 2.25rem;
+  }
+  .container .container__terran .terran-desc p {
+    font-family: "jura", sans-serif;
+    font-size: 1rem;
+  }
+  .container .container__terran .terran-desc p a {
+    color: #323331;
+  }
+  .container .container__displays {
+    grid-column: 1/13;
+    grid-row: 10/14;
+    display: flex;
+    justify-content: space-around;
+  }
+  .container .container__displays .displays-img {
+    padding-right: 70px;
+    width: 600px;
+    height: auto;
+  }
+  .container .container__displays .displays-img img {
+    border-radius: 50%;
+  }
+  .container .container__displays .displays-img img:hover {
+    transform: scale(1.1);
+    transition: transform 200ms linear;
+  }
+  .container .container__displays .displays-desc {
+    width: 90%;
+  }
+  .container .container__displays .displays-desc h2 {
+    font-family: "jura", sans-serif;
+    font-size: 2.25rem;
+  }
+  .container .container__displays .displays-desc p {
+    font-family: "jura", sans-serif;
+    font-size: 1rem;
+  }
+  .container .container__displays .displays-desc p a {
+    color: #323331;
+  }
+  .container .container__rowclean {
+    grid-column: 1/13;
+    grid-row: 14/18;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  .container .container__rowclean .rowclean-img {
+    width: 500px;
+    height: auto;
+    margin-left: 30px;
+  }
+  .container .container__rowclean .rowclean-img img {
+    border-radius: 50%;
+  }
+  .container .container__rowclean .rowclean-img img:hover {
+    transform: scale(1.1);
+    transition: transform 200ms linear;
+  }
+  .container .container__rowclean .rowclean-desc {
+    width: 90%;
+    padding-left: 60px;
+  }
+  .container .container__rowclean .rowclean-desc h2 {
+    font-family: "jura", sans-serif;
+    font-size: 2.25rem;
+  }
+  .container .container__rowclean .rowclean-desc p {
+    font-family: "jura", sans-serif;
+    font-size: 1rem;
+  }
+  .container .container__rowclean .rowclean-desc p a {
+    color: #323331;
+  }
+  .container .container__rowcond {
+    grid-column: 1/13;
+    grid-row: 19/23;
+    display: flex;
+    justify-content: space-around;
+  }
+  .container .container__rowcond .rowcond-img {
+    width: 400px;
+    height: auto;
+    margin-left: 30px;
+  }
+  .container .container__rowcond .rowcond-img img {
+    width: 90%;
+    border-radius: 50%;
+  }
+  .container .container__rowcond .rowcond-img img:hover {
+    transform: scale(1.1);
+    transition: transform 200ms linear;
+  }
+  .container .container__rowcond .rowcond-desc {
+    width: 70%;
+    padding-left: 40px;
+  }
+  .container .container__rowcond .rowcond-desc h2 {
+    font-family: "jura", sans-serif;
+    font-size: 2.25rem;
+  }
+  .container .container__rowcond .rowcond-desc p {
+    font-family: "jura", sans-serif;
+    font-size: 1rem;
+  }
+  .container .container__rowcond .rowcond-desc p a {
+    color: #323331;
+  }
+  .container .container__can {
+    grid-column: 1/13;
+    grid-row: 23/27;
+    display: flex;
+    justify-content: space-around;
+  }
+  .container .container__can .can-img {
+    width: 550px;
+    height: auto;
+    margin-left: 30px;
+  }
+  .container .container__can .can-img img {
+    border-radius: 50%;
+  }
+  .container .container__can .can-img img:hover {
+    transform: scale(1.1);
+    transition: transform 200ms linear;
+  }
+  .container .container__can .can-desc {
+    width: 95%;
+    padding-left: 60px;
+  }
+  .container .container__can .can-desc h2 {
+    font-family: "jura", sans-serif;
+    font-size: 2.25rem;
+  }
+  .container .container__can .can-desc p {
+    font-family: "jura", sans-serif;
+    font-size: 1rem;
+  }
+  .container .container__can .can-desc p a {
+    color: #323331;
+  }
 }
 @media (max-width: 320px) {
   .display320 {
@@ -969,6 +1175,30 @@ body {
   }
   .container-video .video-wrapper3 div {
     display: none;
+  }
+  .container .container__piloto .piloto-img {
+    margin: 0;
+    padding: 0;
+  }
+  .container .container__terran .terran-img {
+    margin: 0;
+    padding: 0;
+  }
+  .container .container__displays .displays-img {
+    margin: 0;
+    padding: 0;
+  }
+  .container .container__rowclean .rowclean-img {
+    margin: 0;
+    padding: 0;
+  }
+  .container .container__displaysrowcond .rowcond-img {
+    margin: 0;
+    padding: 0;
+  }
+  .container .container__can .can-img {
+    margin: 0;
+    padding: 0;
   }
 }
 

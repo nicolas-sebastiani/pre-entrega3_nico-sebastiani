@@ -30,4 +30,30 @@
         }
         
     }
+    .container {
+        .container__piloto .piloto-img {
+            margin: 0;
+            padding: 0;
+        }
+        .container__terran .terran-img {
+            margin: 0;
+            padding: 0;
+        }
+        .container__displays .displays-img {
+            margin: 0;
+            padding: 0;
+        }
+        .container__rowclean .rowclean-img {
+            margin: 0;
+            padding: 0;
+        }
+        .container__displaysrowcond .rowcond-img {
+            margin: 0;
+            padding: 0;
+        }
+        .container__can .can-img {
+            margin: 0;
+            padding: 0;
+        }
+    }
 }
