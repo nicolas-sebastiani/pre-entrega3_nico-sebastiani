@@ -57,20 +57,9 @@
         }
     }
     .signin {
-        @include grid (repeat(1,100%),repeat(6,8rem),100vw,32rem);
+        @include grid (repeat(1,100%),repeat(4,8rem),100vw,34rem);
         justify-content: center;
-        .signin__fondo {
-            grid-column: 1/1;
-            grid-row: 1/8;
-            z-index: -1;
-            img {
-                width: 100vw;
-                height: 100vh;
-                object-fit: cover;
-                object-position: center;
-            }
-        }
-        .signin__form {
+            .signin__form {
             justify-self: center;
             grid-column: 1/1;
             grid-row: 2/4;

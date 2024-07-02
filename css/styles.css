@@ -557,9 +557,9 @@ body {
 .signin {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(8, 8rem);
+  grid-template-rows: repeat(5, 8rem);
   width: 100vw;
-  height: 54rem;
+  height: 38rem;
 }
 .signin .signin__fondo {
   grid-column: 1/13;
@@ -568,13 +568,13 @@ body {
 }
 .signin .signin__fondo img {
   width: 100vw;
-  height: 100vh;
+  height: 38rem;
   object-fit: cover;
   object-position: center;
 }
 .signin .signin__form {
   grid-column: 6/10;
-  grid-row: 3/8;
+  grid-row: 2/7;
   padding: 20px;
   border: 1px solid white;
   border-radius: 10px;
@@ -1203,21 +1203,10 @@ body {
   .signin {
     display: grid;
     grid-template-columns: repeat(1, 100%);
-    grid-template-rows: repeat(6, 8rem);
+    grid-template-rows: repeat(4, 8rem);
     width: 100vw;
-    height: 32rem;
+    height: 34rem;
     justify-content: center;
-  }
-  .signin .signin__fondo {
-    grid-column: 1/1;
-    grid-row: 1/8;
-    z-index: -1;
-  }
-  .signin .signin__fondo img {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center;
   }
   .signin .signin__form {
     justify-self: center;

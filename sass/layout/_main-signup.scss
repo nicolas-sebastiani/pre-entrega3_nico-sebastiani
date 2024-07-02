@@ -1,19 +1,19 @@
 .signin {
-    @include grid (repeat(12,1fr),repeat(8,8rem),100vw,54rem);
+    @include grid (repeat(12,1fr),repeat(5,8rem),100vw,38rem);
     .signin__fondo {
         grid-column: 1/13;
         grid-row: 1/8;
         z-index: -1;
         img {
             width: 100vw;
-            height: 100vh;
+            height: 38rem;
             object-fit: cover;
             object-position: center;
         }
     }
     .signin__form {
         grid-column: 6/10;
-        grid-row: 3/8;
+        grid-row: 2/7;
         padding: 20px;
         border: 1px solid white;
         border-radius: 10px;
