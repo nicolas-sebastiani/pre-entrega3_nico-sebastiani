@@ -1,8 +1,8 @@
 .signin {
-    @include grid (repeat(12,1fr),repeat(8,8rem),100vw,60rem);
+    @include grid (repeat(12,1fr),repeat(8,8rem),100vw,54rem);
     .signin__fondo {
         grid-column: 1/13;
-        grid-row: 1/6;
+        grid-row: 1/8;
         z-index: -1;
         img {
             width: 100vw;
@@ -22,13 +22,13 @@
         height: 300px;
         box-shadow: 5px 5px 5px black;
         .registerlink p {
-            color: map-get($map:$colors,$key:dark-grey);
+            color: map-get($map:$colors,$key:font-colorcl);
             font-family: 'jura', sans-serif;
             font-size: map-get($map:$fontsize,$key:l);
             a {
                 font-weight: bold;
                 text-decoration: none;
-                color: map-get($map:$colors,$key:dark-grey);
+                color: map-get($map:$colors,$key:font-colorcl);
             }
                 &:hover {
                     transform: scale(1.1);

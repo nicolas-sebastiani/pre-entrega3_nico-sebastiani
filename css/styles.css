@@ -559,11 +559,11 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(8, 8rem);
   width: 100vw;
-  height: 60rem;
+  height: 54rem;
 }
 .signin .signin__fondo {
   grid-column: 1/13;
-  grid-row: 1/6;
+  grid-row: 1/8;
   z-index: -1;
 }
 .signin .signin__fondo img {
@@ -584,14 +584,14 @@ body {
   box-shadow: 5px 5px 5px black;
 }
 .signin .signin__form .registerlink p {
-  color: #323331;
+  color: #FDF1F1;
   font-family: "jura", sans-serif;
   font-size: 1.5rem;
 }
 .signin .signin__form .registerlink p a {
   font-weight: bold;
   text-decoration: none;
-  color: #323331;
+  color: #FDF1F1;
 }
 .signin .signin__form .registerlink p:hover {
   transform: scale(1.1);
@@ -1199,6 +1199,55 @@ body {
   .container .container__can .can-img {
     margin: 0;
     padding: 0;
+  }
+  .signin {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(6, 8rem);
+    width: 100vw;
+    height: 32rem;
+    justify-content: center;
+  }
+  .signin .signin__fondo {
+    grid-column: 1/1;
+    grid-row: 1/8;
+    z-index: -1;
+  }
+  .signin .signin__fondo img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  .signin .signin__form {
+    justify-self: center;
+    grid-column: 1/1;
+    grid-row: 2/4;
+    border: 1px solid white;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    width: 205px;
+    height: 350px;
+    box-shadow: 5px 5px 5px black;
+  }
+  .signin .signin__form .registerlink p {
+    font-size: 1rem;
+  }
+  .signin .signin__form .input-box input {
+    width: 150px;
+    height: 30px;
+    font-size: 1rem;
+    font-family: "jura", sans-serif;
+  }
+  .signin .signin__form .remember {
+    font-size: 1rem;
+  }
+  .signin .signin__form .signin__button {
+    cursor: pointer;
+    justify-self: center;
+    font-size: 1rem;
+    max-width: 100px;
+    width: 100%;
   }
 }
 

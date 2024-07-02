@@ -56,4 +56,49 @@
             padding: 0;
         }
     }
+    .signin {
+        @include grid (repeat(1,100%),repeat(6,8rem),100vw,32rem);
+        justify-content: center;
+        .signin__fondo {
+            grid-column: 1/1;
+            grid-row: 1/8;
+            z-index: -1;
+            img {
+                width: 100vw;
+                height: 100vh;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .signin__form {
+            justify-self: center;
+            grid-column: 1/1;
+            grid-row: 2/4;
+            border: 1px solid white;
+            border-radius: 5px;
+            backdrop-filter: blur(3px);
+            width: 205px;
+            height: 350px;
+            box-shadow: 5px 5px 5px black;
+            .registerlink p {
+                font-size: map-get($map:$fontsize,$key:m);
+            }
+            .input-box input {
+                width: 150px;
+                height: 30px;
+                font-size: map-get($map: $fontsize, $key: m);
+                font-family: 'jura',sans-serif;
+            }
+            .remember {
+                font-size: map-get($map: $fontsize, $key: m);
+            }
+            .signin__button {
+                cursor: pointer;
+                justify-self: center;
+                font-size: map-get($map: $fontsize, $key: m);
+                max-width: 100px; 
+                width: 100%; 
+            }
+        }
+    }
 }
